@@ -1,0 +1,7 @@
+%YAML:1.0
+---
+truth: /home/sanity-seeker/Programming/Projects/segmentation/Source/truth/
+top: /home/sanity-seeker/Programming/Projects/segmentation/Source/original/
+ndsm: /home/sanity-seeker/Programming/Projects/segmentation/Source/ndsm/
+training_data: /home/sanity-seeker/Programming/Projects/segmentation/semantic_project/training data/
+testing_data: /home/sanity-seeker/Programming/Projects/segmentation/semantic_project/testing data/
