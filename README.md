@@ -1,5 +1,4 @@
-# ReadMe
-## Semantic_project
+## Semantic project
 The goal is to solve a semantic segmentation task for aerial imagery.
 
 This repository contains two solutions:
@@ -7,6 +6,19 @@ This repository contains two solutions:
 - Using Unet-like neural net on augmented data. Written in Python using Pytorch (folder "dl").
 
 Each solution can be further processed with CRF to factor outliers.
+
+## Sample results
+<p float="middle">
+  <img src="https://github.com/sanityseeker/semantic_project/blob/d06589821a06214a55c03ed1c79d0847e3051365/dl/sample_results/0_input.png" alt="Input" width="32%" />
+  <img src="https://github.com/sanityseeker/semantic_project/blob/d06589821a06214a55c03ed1c79d0847e3051365/dl/sample_results/0_pred.png" alt="Prediction" width="32%" /> 
+  <img src="https://github.com/sanityseeker/semantic_project/blob/d06589821a06214a55c03ed1c79d0847e3051365/dl/sample_results/0_pred_crf.png" alt="Post-processed with CRF" width="32%"/>
+</p>
+
+<p float="middle">
+  <img src="https://github.com/sanityseeker/semantic_project/blob/d06589821a06214a55c03ed1c79d0847e3051365/dl/sample_results/106_input.png" alt="Input" width="32%" />
+  <img src="https://github.com/sanityseeker/semantic_project/blob/d06589821a06214a55c03ed1c79d0847e3051365/dl/sample_results/106_pred.png" alt="Prediction" width="32%" /> 
+  <img src="https://github.com/sanityseeker/semantic_project/blob/d06589821a06214a55c03ed1c79d0847e3051365/dl/sample_results/106_pred_crf.png" alt="Post-processed with CRF" width="32%"/>
+</p>
 
 --
 
